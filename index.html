@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Solar System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/icon.png">
+</head>
+
+<body>
+    <!-- threjs canvas -->
+    <canvas id="canvas"></canvas>
+
+
+
+
+    <script src='js/libs/three_r120.min.js'></script>
+    <script src='js/libs/OrbitControls.js'></script>
+    <script src='js/libs/OBJLoader.js'></script>
+    <script src='js/libs/MTLLoader.js'></script>
+    <script src='js/libs/dat.gui.min.js'></script>
+
+    <script src="js/cameraControls/MyCameraControls.js"></script>
+    <script src="js/PickHelper.js"></script>
+    <script src="js/gui/ColorGUIHelper.js"></script>
+
+
+    <script src="js/sceneSubjects/AmbientLight.js"></script>
+    <script src="js/sceneSubjects/SunLight.js"></script>
+
+    <script src="js/sceneSubjects/SolarSystem.js"></script>
+    <script src="js/sceneSubjects/astronomicalBodies/Stars.js"></script>
+
+    <script src="js/SceneManager.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
